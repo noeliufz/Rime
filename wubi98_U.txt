@@ -1,0 +1,11 @@
+# Rime table
+#@/db_name	wubi98_U
+#@/db_type	tabledb
+#@/rime_version	1.8.5
+#@/tick	9
+呢	knx	1
+的	r	1
+么	tc	1
+怎	thfn	2
+臬	thsu	3
+倡	wjjg	1

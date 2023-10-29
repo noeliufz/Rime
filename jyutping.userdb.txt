@@ -1,0 +1,6 @@
+# Rime user dictionary
+#@/db_name	jyutping
+#@/db_type	userdb
+#@/rime_version	1.8.5
+#@/tick	0
+#@/user_id	cd20fa3a-8adf-427d-b6cb-f1aa4d5807ba

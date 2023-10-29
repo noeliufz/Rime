@@ -1,0 +1,20 @@
+# Rime table
+#@/db_name	wubi98_dz
+#@/db_type	tabledb
+#@/rime_version	1.8.5
+#@/tick	20
+码	dcg	1
+石	dgtg	2
+肤	egy	1
+表	ge	1
+五	gg	1
+䁦	hheg	1
+不	i	1
+光	ig	2
+我	q	1
+白	rrr	2
+西	sghg	1
+笔	te	1
+臬	thsu	2
+好	vb	1
+文	yygy	2

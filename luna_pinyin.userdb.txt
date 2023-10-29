@@ -1,0 +1,38 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin
+#@/db_type	userdb
+#@/rime_version	1.8.5
+#@/tick	31
+#@/user_id	cd20fa3a-8adf-427d-b6cb-f1aa4d5807ba
+bu shuo hua 	不說話	c=0 d=0.1 t=4
+bu yi yang 	不一樣	c=1 d=1 t=26
+ci 	詞	c=1 d=1 t=24
+ci ku 	詞庫	c=2 d=1.96561 t=10
+geng xin 	更新	c=1 d=1 t=8
+hou xuan 	候選	c=1 d=1 t=23
+jin yong 	禁用	c=1 d=1 t=17
+jiong yue 	囧月	c=2 d=1.96079 t=21
+leng mo de 	冷漠的	c=0 d=0.1 t=3
+lian wang 	聯網	c=1 d=1 t=7
+liu 	流	c=1 d=1 t=16
+liu 	留	c=0 d=0.1 t=14
+ni kan ni 	你看你	c=0 d=0.1 t=3
+ni kan ni leng mo de 	你看你冷漠的	c=1 d=1 t=4
+pei zhi 	配置	c=1 d=1 t=30
+pin yin 	拼音	c=2 d=1.90484 t=22
+shi yong 	使用	c=1 d=1 t=12
+shuang pin 	雙拼	c=3 d=2.9361 t=19
+shun xu 	順序	c=1 d=1 t=25
+sou gou 	搜狗	c=1 d=1 t=9
+tong bu 	同步	c=3 d=2.97025 t=31
+tong guo 	通過	c=1 d=1 t=28
+wan shang 	晚上	c=0 d=0.1 t=4
+wan shang bu shuo hua 	晚上不說話	c=1 d=1 t=5
+yi 	一	c=1 d=1 t=6
+yu 	與	c=1 d=1 t=20
+yu ju 	語句	c=0 d=0.1 t=14
+yu ju liu 	語句留	c=1 d=1 t=15
+zhan kai 	展開	c=0 d=0.1 t=17
+zi ding yi 	自定義	c=1 d=1 t=1
+zi dong 	自動	c=0 d=0.1 t=17
+zi dong zhan kai 	自動展開	c=1 d=1 t=18

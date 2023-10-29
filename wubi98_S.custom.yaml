@@ -1,0 +1,26 @@
+patch:
+  "speller/auto_select": false
+  "speller/auto_clear": "max_length"
+  "translator/enable_completion": true
+  "menu/page_size": 5
+  # "style/color_scheme": "youtube"
+  # "style/font_point": 10
+  # "style/font_face": "98wb-0"
+  "style/horizontal": false
+  "style/fullscreen": false
+  "style/inline_preedit": true
+  # "style/preedit_type": "composition"
+  # "style/display_tray_icon": true
+  "style/label_format": "%s."
+  # "style/layout/min_width": 130
+  "style/layout/min_height": 0
+  "style/layout/border_width": 3
+  # "style/layout/margin_x": 6
+  # "style/layout/margin_y": 6
+  # "style/layout/spacing": 18
+  # "style/layout/candidate_spacing": 10
+  # "style/layout/hilite_spacing": 0
+  # "style/layout/hilite_padding": 6
+  # "style/layout/round_corner": 0
+  # "key_binder/bindings/@next 1": {accept: "Shift+Shift_L", send: 2, when: has_menu}  #Shift_L次选
+  # "key_binder/bindings/@next 2": {accept: "Shift+Shift_R", send: 3, when: has_menu}  #Shift_R三选
