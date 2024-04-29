@@ -1,7 +1,7 @@
 __build_info:
-  rime_version: 1.8.5
+  rime_version: 1.11.0
   timestamps:
-    default: 1683776629
+    default: 1714392012
     default.custom: 1683776647
     key_bindings: 1683029024
     key_bindings.custom: 0
@@ -97,6 +97,16 @@ lua_reverse_db:
   code: wb_spelling
   spelling: wb_spelling
 menu:
+  alternative_select_labels:
+    - "〡"
+    - "〢"
+    - "〣"
+    - "〤"
+    - "〥"
+    - "〦"
+    - "〧"
+    - "〨"
+    - "〩"
   page_size: 9
 mkst:
   comment_format:

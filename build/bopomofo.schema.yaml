@@ -1,12 +1,11 @@
 __build_info:
-  rime_version: 1.8.5
+  rime_version: 1.11.0
   timestamps:
     bopomofo.custom: 0
     bopomofo.schema: 1683029024
-    default: 1683776629
+    default: 1714392012
     default.custom: 1683776647
-    grammar: 1675621991
-    grammar.custom: 0
+    grammar: 0
     key_bindings: 1683029024
     key_bindings.custom: 0
     punctuation: 1683029024
@@ -48,8 +47,6 @@ engine:
     - "table_translator@custom_phrase"
     - reverse_lookup_translator
     - script_translator
-grammar:
-  language: "zh-hant-t-essay-bgw"
 key_binder:
   bindings:
     - {accept: "Control+p", send: Up, when: composing}
@@ -90,6 +87,16 @@ key_binder:
   import_preset: default
 menu:
   alternative_select_keys: ABCDEFGHIJ
+  alternative_select_labels:
+    - "〡"
+    - "〢"
+    - "〣"
+    - "〤"
+    - "〥"
+    - "〦"
+    - "〧"
+    - "〨"
+    - "〩"
   page_size: 9
 punctuator:
   full_shape:
@@ -254,10 +261,7 @@ switches:
   - options: [zh_hant, zh_hans, zh_hant_tw]
     states: ["傳統漢字", "简化字", "臺灣字形"]
 translator:
-  contextual_suggestions: true
   dictionary: terra_pinyin
-  max_homographs: 7
-  max_homophones: 7
   preedit_format:
     - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347'|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙ |"
   prism: bopomofo

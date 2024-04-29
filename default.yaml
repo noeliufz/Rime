@@ -36,6 +36,7 @@ switcher:
 
 menu:
   page_size: 9
+  alternative_select_labels: [ 〡, 〢, 〣, 〤, 〥, 〦, 〧, 〨, 〩 ]
 
 punctuator:
   full_shape:

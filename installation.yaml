@@ -1,8 +1,8 @@
 distribution_code_name: Squirrel
 distribution_name: "鼠鬚管"
-distribution_version: 0.16.2
+distribution_version: 0.17.2
 install_time: "Mon Feb  1 00:46:31 2021"
-installation_id: "Mac"
-rime_version: 1.8.5
-update_time: "Tue May  2 21:09:10 2023"
-sync_dir: '/Users/noahliucn/Library/CloudStorage/OneDrive-Personal/RimeSync'
+installation_id: Mac
+rime_version: 1.11.0
+sync_dir: "/Users/noahliucn/Library/CloudStorage/OneDrive-Personal/RimeSync"
+update_time: "Mon Apr 29 21:38:00 2024"

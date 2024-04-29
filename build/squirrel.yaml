@@ -1,8 +1,8 @@
 __build_info:
-  rime_version: 1.8.5
+  rime_version: 1.11.0
   timestamps:
-    squirrel: 1697538048
-    squirrel.custom: 0
+    squirrel: 1714390670
+    squirrel.custom: 1714391502
 app_options:
   co.zeit.hyper:
     ascii_mode: true
@@ -46,7 +46,8 @@ app_options:
   ru.keepcoder.Telegram:
     inline: true
 chord_duration: 0.1
-config_version: 0.37
+config_version: 0.38
+keyboard_layout: last
 preset_color_schemes:
   apathy:
     author: "LIANG Hai"
@@ -68,19 +69,18 @@ preset_color_schemes:
     text_color: 0x424242
   aqua:
     author: "佛振 <chen.sst@gmail.com>"
-    back_color: 0xddeceeee
+    back_color: 0xeeeceeee
     candidate_text_color: 0x000000
     comment_text_color: 0x5a5a5a
-    hilited_candidate_back_color: 0xddfa3a0a
+    hilited_candidate_back_color: 0xeefa3a0a
     hilited_candidate_text_color: 0xffffff
     hilited_comment_text_color: 0xfcac9d
     hilited_text_color: 0x000000
     name: "碧水／Aqua"
     text_color: 0x606060
   azure:
-    alpha: 1.0
     author: "佛振 <chen.sst@gmail.com>"
-    back_color: 0xcc8b4e01
+    back_color: 0xee8b4e01
     candidate_text_color: 0xffeacc
     comment_text_color: 0xc69664
     hilited_candidate_back_color: 0x00000000
@@ -205,7 +205,7 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xffffff
     hilited_corner_radius: 3
     hilited_text_color: 0xdedddd
-    horizontal: false
+    horizontal: true
     inline_preedit: true
     label_color: 0x888785
     label_font_point: 14
@@ -249,46 +249,37 @@ preset_color_schemes:
     name: "純粹的形式／Purity of Form"
     text_color: 0xc2c2c2
   solarized_dark:
-    back_color: 0xf0352A0A
-    border_color: 0xf02A1F00
-    candidate_format: "%c %@ "
-    candidate_text_color: 0x989F52
-    comment_text_color: 0x289989
-    corner_radius: 6
-    font_face: "PingFangSC-Regular,HanaMinB"
-    font_point: 16
-    hilited_back_color: 0x444444
-    hilited_candidate_back_color: 0xD7E8ED
-    hilited_candidate_label_color: 0x2566C6
-    hilited_candidate_text_color: 0x3942CB
-    hilited_comment_text_color: 0x8144C2
-    hilited_text_color: 0x2C8BAE
-    horizontal: true
-    label_color: 0xCC8947
-    label_font_point: 15
-    line_spacing: 10
-    name: "夜光石"
-    text_color: 0xA1A095
+    author: "雪齋 <lyc20041@gmail.com>"
+    back_color: 0xF0352A0A
+    border_color: 0x2A1F00
+    candidate_text_color: 0x7389FF
+    comment_text_color: 0xC38AFF
+    hilited_back_color: 0xC9DADF
+    hilited_candidate_back_color: 0x403516
+    hilited_candidate_label_color: 0xCC8947
+    hilited_candidate_text_color: 0x989F52
+    hilited_comment_text_color: 0x289989
+    hilited_text_color: 0xBE706D
+    label_color: 0x478DF4
+    name: "曬經・月／Solarized Dark"
+    preedit_back_color: 0xD7E8ED
+    text_color: 0x756E5D
   solarized_light:
-    back_color: 0xf0352A0A
-    border_color: 0xCC8947
-    candidate_format: "%c %@ "
-    candidate_text_color: 0x989F52
-    comment_text_color: 0x289989
-    corner_radius: 6
-    font_face: "PingFangSC-Regular,HanaMinB"
-    font_point: 16
-    hilited_back_color: 0x444444
+    author: "雪齋 <lyc20041@gmail.com>"
+    back_color: 0xF0E5F6FB
+    border_color: 0xEDFFFF
+    candidate_text_color: 0x595E00
+    color_space: display_p3
+    comment_text_color: 0x005947
+    hilited_back_color: 0x4C4022
     hilited_candidate_back_color: 0xD7E8ED
     hilited_candidate_label_color: 0x2566C6
     hilited_candidate_text_color: 0x3942CB
     hilited_comment_text_color: 0x8144C2
     hilited_text_color: 0x2C8BAE
-    horizontal: true
-    label_color: 0xf02A1F00
-    label_font_point: 15
-    line_spacing: 10
-    name: "白光石"
+    label_color: 0xA36407
+    name: "曬經・日／Solarized Light"
+    preedit_back_color: 0x403516
     text_color: 0xA1A095
   solarized_rock:
     author: "Aben <tntaben@gmail.com>, based on Ethan Schoonover's Solarized color scheme"
@@ -315,20 +306,53 @@ preset_color_schemes:
     hilited_text_color: 0xfecb96
     name: "星際我爭霸／StarCraft"
     text_color: 0xccaa88
+
+  reimu:
+    name: "灵梦／Reimu"
+    author: "Lufs X <i@isteed.cc>"
+
+    font_face: "LXGWWenKai-Regular, PingFangSC"
+    font_point: 17
+    label_font_face: "LXGWWenKai-Regular, PingFangSC"
+    label_font_point: 14
+
+    candidate_format: "%c\u2005%@"
+    candidate_list_layout: linear
+    text_orientation: horizontal
+    inline_preedit: true
+
+    corner_radius: 8
+    hilited_corner_radius: 8
+    border_height: 1
+    border_width: 1
+    alpha: 0.90
+    shadow_size: 2
+
+    color_space: display_p3
+    back_color: 0xF5FCFD
+    candidate_text_color: 0x282C32
+    comment_text_color: 0x717172
+    label_color: 0x888785
+    hilited_candidate_back_color: 0xF5FCFD
+    hilited_candidate_text_color: 0x4F00E5
+    hilited_comment_text_color: 0x9F9CF2
+    hilited_candidate_label_color: 0x4F00E5
+    text_color: 0x6B54E9
+    hilited_text_color: 0xD8000000
 show_notifications_when: appropriate
 style:
   border_height: 0
   border_width: 0
-  color_scheme: default
+  color_scheme: reimu
   comment_font_point: 16
-  corner_radius: 5
+  corner_radius: 10
   font_face: "Lucida Grande"
-  font_point: 16
+  font_point: 21
   hilited_corner_radius: 0
-  horizontal: false
   inline_preedit: true
   label_font_point: 18
   line_spacing: 5
-  spacing: 0
+  spacing: 10
   text_orientation: horizontal
-us_keyboard_layout: false
+  memorize_size: false
+  candidate_list_layout: linear

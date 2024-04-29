@@ -1,14 +1,14 @@
 __build_info:
-  rime_version: 1.8.5
+  rime_version: 1.11.0
   timestamps:
-    default: 1683776629
+    default: 1714392012
     default.custom: 1683776647
     key_bindings: 1683029024
     key_bindings.custom: 0
     punctuation: 1683029024
     punctuation.custom: 0
     stroke.custom: 0
-    stroke.schema: 1675621991
+    stroke.schema: 1714390670
 abc_segmentor:
   extra_tags:
     - reverse_lookup
@@ -83,6 +83,16 @@ key_binder:
     - {accept: KP_0, send: Select, when: has_menu}
   import_preset: default
 menu:
+  alternative_select_labels:
+    - "〡"
+    - "〢"
+    - "〣"
+    - "〤"
+    - "〥"
+    - "〦"
+    - "〧"
+    - "〨"
+    - "〩"
   page_size: 9
 punctuator:
   full_shape:

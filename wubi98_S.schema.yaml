@@ -100,7 +100,7 @@ translator:
   disable_user_dict_for_patterns:
     - "^z.*$"
   preedit_format:
-    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+    - 'xform/^([a-z]*)$/\U$1\E/'
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|工子又大月土王目水日口田山已火之金白木禾立女人幺言z|"
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|工子又大月土王目水日口田山已火之金白木禾立女人幺言z|"

@@ -1,7 +1,7 @@
 __build_info:
-  rime_version: 1.8.5
+  rime_version: 1.11.0
   timestamps:
-    default: 1683776629
+    default: 1714392012
     default.custom: 1683776647
     key_bindings: 1683029024
     key_bindings.custom: 0
@@ -73,6 +73,16 @@ key_binder:
     - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
   import_preset: default
 menu:
+  alternative_select_labels:
+    - "〡"
+    - "〢"
+    - "〣"
+    - "〤"
+    - "〥"
+    - "〦"
+    - "〧"
+    - "〨"
+    - "〩"
   page_size: 9
 punctuator:
   full_shape:

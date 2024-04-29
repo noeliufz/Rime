@@ -1,7 +1,7 @@
 __build_info:
-  rime_version: 1.8.5
+  rime_version: 1.11.0
   timestamps:
-    default: 1683776629
+    default: 1714392012
     default.custom: 1683776647
     key_bindings: 1683029024
     key_bindings.custom: 0
@@ -9,8 +9,8 @@ __build_info:
     punctuation.custom: 0
     symbols: 1683029024
     symbols.custom: 0
-    wubi98_S.custom: 1697538103
-    wubi98_S.schema: 1683776992
+    wubi98_S.custom: 1714387895
+    wubi98_S.schema: 1706863807
 charset_filter:
   option_name: gb2312
 ci_reverse_lookup:
@@ -72,7 +72,7 @@ fixed:
   initial_quality: 1000
   max_phrase_length: 4
   preedit_format:
-    - "xform/^([a-z]*)$/$1\\t（\\U$1\\E）/"
+    - "xform/^([a-z]*)$/\\U$1\\E/"
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|工子又大月土王目水日口田山已火之金白木禾立女人幺言z|"
 history:
   initial_quality: 1
@@ -103,7 +103,17 @@ lua_reverse_db:
   code: wb_spelling
   spelling: wb_spelling
 menu:
-  page_size: 5
+  alternative_select_labels:
+    - "〡"
+    - "〢"
+    - "〣"
+    - "〤"
+    - "〥"
+    - "〦"
+    - "〧"
+    - "〨"
+    - "〩"
+  page_size: 6
 mkst:
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|工子又大月土王目水日口田山已火之金白木禾立女人幺言z|"
@@ -120,7 +130,7 @@ mkst:
   initial_quality: 10
   max_phrase_length: 4
   preedit_format:
-    - "xform/^([a-z]*)$/$1\\t（\\U$1\\E）/"
+    - "xform/^([a-z]*)$/\\U$1\\E/"
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|工子又大月土王目水日口田山已火之金白木禾立女人幺言z|"
   prefix: "`"
   tag: mkst
@@ -445,7 +455,7 @@ rvl_zhuyin:
   initial_quality: 10
   max_phrase_length: 4
   preedit_format:
-    - "xform/^([a-z]*)$/$1\\t（\\U$1\\E）/"
+    - "xform/^([a-z]*)$/\\U$1\\E/"
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|工子又大月土王目水日口田山已火之金白木禾立女人幺言z|"
   prefix: "~"
   tag: zhuyin
@@ -497,12 +507,9 @@ speller:
   max_code_length: 4
 style:
   fullscreen: false
-  horizontal: false
+  horizontal: true
   inline_preedit: true
   label_format: "%s."
-  layout:
-    border_width: 3
-    min_height: 0
 switches:
   - name: ascii_mode
     reset: 0
@@ -546,5 +553,5 @@ translator:
   initial_quality: 100000
   max_phrase_length: 4
   preedit_format:
-    - "xform/^([a-z]*)$/$1\\t（\\U$1\\E）/"
+    - "xform/^([a-z]*)$/\\U$1\\E/"
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|工子又大月土王目水日口田山已火之金白木禾立女人幺言z|"
