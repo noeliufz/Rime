@@ -8,7 +8,7 @@ patch:
   # "style/font_face": "98wb-0"
   "style/horizontal": true
   "style/fullscreen": false
-  "style/inline_preedit": true
+  # "style/inline_preedit": false
   # "style/preedit_type": "composition"
   # "style/display_tray_icon": true
   "style/label_format": "%s."

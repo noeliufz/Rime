@@ -9,7 +9,7 @@ __build_info:
     punctuation.custom: 0
     symbols: 1683029024
     symbols.custom: 0
-    wubi98_S.custom: 1714387895
+    wubi98_S.custom: 1714392794
     wubi98_S.schema: 1706863807
 charset_filter:
   option_name: gb2312
@@ -508,7 +508,6 @@ speller:
 style:
   fullscreen: false
   horizontal: true
-  inline_preedit: true
   label_format: "%s."
 switches:
   - name: ascii_mode

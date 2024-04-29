@@ -2,7 +2,7 @@
 #@/db_name	wubi98_S
 #@/db_type	tabledb
 #@/rime_version	1.8.5
-#@/tick	21099
+#@/tick	21156
 工	a	10
 戈	a	2
 式	aa	12
@@ -117,7 +117,7 @@
 菜市场	ayfn	2
 荒野	ayjf	1
 荒弃	ayyc	1
-了	b	831
+了	b	832
 陈	ba	2
 陈	bai	2
 子	bb	41
@@ -154,7 +154,7 @@
 出行	bmtg	1
 出站	bmuh	1
 出门	bmuy	3
-也	bn	313
+也	bn	316
 皮肤	bneg	1
 了解	bnqe	2
 皮	bnty	1
@@ -219,7 +219,7 @@
 通信	cewy	3
 熊	cex	2
 劝诫	ceya	1
-对	cf	116
+对	cf	117
 对于	cfgf	2
 特殊	cfgq	2
 特别	cfke	5
@@ -229,7 +229,7 @@
 特征	cftg	6
 对比	cfxx	2
 对齐	cfyj	3
-马	cg	6
+马	cg	7
 驱	cga	1
 骑士	cgfg	3
 马上	cghh	4
@@ -446,14 +446,14 @@
 其他	dwwb	9
 百分比	dwxx	4
 龙	dx	1
-太	dy	56
+太	dy	57
 太阳	dybj	2
 态	dyn	2
 太多	dyqq	1
 太极	dysb	1
 碎片	dyth	1
 月	e	2
-有	e	432
+有	e	433
 服	eb	3
 服	ebc	2
 服务	ebte	4
@@ -461,7 +461,7 @@
 肥缺	ectf	1
 须	ed	6
 胚	edh	1
-须	edm	1
+须	edm	2
 脄	edoy	1
 用不着	eduh	8
 朋	ee	3
@@ -490,7 +490,7 @@
 力图	enlt	1
 鼠标	ensf	4
 力	ent	2
-鼠	enu	5
+鼠	enu	6
 脏	eof	1
 边	ep	25
 受	epc	6
@@ -615,7 +615,7 @@
 走	fhu	16
 超	fhv	9
 超	fhvk	10
-真	fhw	76
+真	fhw	78
 超市	fhym	1
 直言	fhyy	1
 示	fi	1
@@ -733,7 +733,7 @@
 靃	fwyy	2
 䨎	fxcu	1
 坑	fyw	3
-一	g	483
+一	g	484
 开	ga	55
 形式	gaaa	1
 开通	gace	1
@@ -819,10 +819,10 @@
 一排	ggrh	1
 替换	ggrq	3
 一样	ggsu	45
-五笔	ggte	7
+五笔	ggte	8
 一般	ggtu	8
 一会	ggwf	2
-下	gh	138
+下	gh	139
 正式	ghaa	2
 正	ghd	19
 正在	ghdh	1
@@ -1002,7 +1002,7 @@
 些	hxf	34
 紫光	hxig	1
 紫色	hxqc	1
-不	i	898
+不	i	901
 江	ia	1
 满	iag	4
 洪水	iaii	1
@@ -1106,6 +1106,7 @@
 常见	ipmq	1
 学习	ipnu	13
 深度	ipoa	3
+深色	ipqc	1
 学校	ipsu	14
 学术	ipsy	4
 喾	ipt	2
@@ -1177,7 +1178,7 @@
 注意	iyuj	3
 浪费	iyxj	1
 日	j	2
-是	j	1131
+是	j	1136
 晓	ja	1
 虹桥	jast	1
 最	jb	30
@@ -1216,7 +1217,7 @@
 量	jg	6
 师范	jgai	5
 是否	jgdh	3
-题	jgh	7
+题	jgh	8
 题	jghm	1
 师	jgm	2
 量化	jgwx	2
@@ -1384,7 +1385,7 @@
 哪些	knhx	2
 哪里	knjf	6
 嘱	knt	1
-呢	knx	88
+呢	knx	89
 嘛	ko	6
 咪咪	koko	7
 嘛	kos	3
@@ -1507,7 +1508,7 @@
 轴	lm	2
 轴	lmg	1
 轴距	lmkh	1
-思	ln	3
+思	ln	4
 思路	lnkh	7
 图书馆	lnqn	4
 思想	lnsh	1
@@ -1536,7 +1537,7 @@
 界	lw	11
 输出	lwbm	6
 界面	lwdl	4
-输	lwg	1
+输	lwg	2
 轮回	lwlk	1
 输入	lwty	9
 轮	lwx	8
@@ -1940,7 +1941,7 @@
 社交	pyur	3
 社会	pywf	1
 神经	pyxc	8
-我	q	1283
+我	q	1284
 氏	qa	1
 锚点	qahk	1
 错	qaj	39
@@ -2064,7 +2065,7 @@
 勺	qyi	1
 留	qyvl	6
 白	r	3
-的	r	1588
+的	r	1593
 找	ra	98
 摸	ra	2
 找到	ragc	1
@@ -2121,7 +2122,7 @@
 捂	rgk	2
 皇后	rgrg	1
 后端	rgum	6
-看	rh	175
+看	rh	176
 看戏	rhca	1
 看台	rhck	1
 排	rhd	5
@@ -2280,7 +2281,7 @@
 挤	ryj	1
 搞	rym	3
 撤离	ryyr	1
-要	s	238
+要	s	239
 模式	saaa	8
 框架	saek	2
 模块	safn	1
@@ -2356,7 +2357,7 @@
 相当	shiv	6
 相同	shmg	3
 相册	shmm	2
-想	shn	160
+想	shn	161
 相应	shoi	2
 想象	shqk	2
 相机	shsw	4
@@ -2452,7 +2453,7 @@
 术	sy	4
 核	synw	1
 核实	sypu	1
-和	t	260
+和	t	261
 禾	t	1
 长	ta	24
 长沙	taii	1
@@ -2477,7 +2478,7 @@
 刮	tdjh	1
 乱	tdn	3
 适	tdp	1
-知道	tdut	92
+知道	tdut	93
 知识	tdyk	2
 务	te	5
 租	teg	2
@@ -2528,7 +2529,7 @@
 制度	tgoa	2
 重写	tgpg	2
 重视	tgpy	1
-行	tgs	123
+行	tgs	124
 行李	tgsb	2
 重酬	tgsg	1
 重要	tgsv	1
@@ -2630,7 +2631,7 @@
 乏	tp	3
 管理	tpgj	6
 乏味	tpkf	2
-管	tpn	29
+管	tpn	30
 管道	tput	2
 自定义	tpyr	1
 稳	tq	1
@@ -2695,14 +2696,14 @@
 每次	txuq	2
 繁体	txws	1
 系统	txxy	37
-入	ty	15
+入	ty	16
 往	tyg	4
 入海	tyit	1
 稿	tym	1
 篇	tyn	1
 笔记本	tysg	3
 入主	tyyg	1
-产	u	8
+产	u	9
 并	ua	7
 并且	uaeg	1
 差	uaf	6
@@ -2776,7 +2777,7 @@
 音	ujf	5
 单	ujfj	6
 章	ujj	1
-意思	ujln	44
+意思	ujln	46
 竟	ujq	1
 竟然	ujqd	5
 意外	ujqh	1
@@ -2886,7 +2887,7 @@
 发	v	73
 女	v	3
 妪	var	1
-好	vb	241
+好	vb	242
 好友	vbdc	1
 好奇	vbds	4
 好胜	vbet	1
@@ -2901,7 +2902,7 @@
 奶	vbt	3
 好笑	vbtt	1
 好好	vbvb	1
-好像	vbwq	43
+好像	vbwq	44
 妈	vc	9
 努力	vcen	2
 妈	vcg	2
@@ -3002,7 +3003,7 @@
 传票	wfsf	1
 付梓	wfsu	1
 佬	wft	2
-什么	wftc	272
+什么	wftc	275
 传送	wfud	1
 传递	wfux	1
 付费	wfxj	1
@@ -3046,7 +3047,7 @@
 悠闲	whus	1
 偿	wi	3
 介	wj	1
-但	wjg	112
+但	wjg	113
 伸	wjh	1
 但是	wjjg	4
 偶	wjm	2
@@ -3074,7 +3075,7 @@
 伙伴	wowu	1
 佇	wpsh	1
 低	wq	1
-你	wq	518
+你	wq	520
 低	wqa	5
 仰	wqb	1
 低能	wqce	1
@@ -3305,7 +3306,7 @@
 编程	xytk	4
 编译	xyyc	5
 统计	xyyf	3
-主	y	29
+主	y	30
 言	y	2
 试	ya	13
 诺	yad	1
@@ -3450,7 +3451,7 @@
 旁边	yuep	1
 说法	yuif	1
 说明	yuje	6
-说	yuk	177
+说	yuk	180
 详细	yuxl	1
 商讨	yuyf	1
 说话	yuyt	3
