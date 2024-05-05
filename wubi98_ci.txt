@@ -2,7 +2,7 @@
 #@/db_name	wubi98_ci
 #@/db_type	tabledb
 #@/rime_version	1.8.5
-#@/tick	672
+#@/tick	682
 式	aa	1
 工	aaaa	1
 華	agag	1
@@ -37,7 +37,7 @@
 又	cccc	1
 参数	cdov	3
 能	ce	2
-对	cf	11
+对	cf	15
 特	cffy	1
 䮁	coc	1
 难	cw	1
@@ -82,6 +82,7 @@
 赵	fhr	1
 真	fhw	8
 进行	fjtg	1
+喜欢	fkcq	4
 南京	fmyi	1
 元素	fqgx	1
 远	fqp	1
@@ -114,6 +115,7 @@
 画	glb	1
 画面	gldl	1
 画画	glgl	1
+瑞	gmd	4
 再	gmf	1
 两	gmww	2
 万	gq	1
@@ -174,7 +176,8 @@
 哪	kngb	1
 呢	knx	5
 嘛	koss	1
-只	kw	1
+哦	ktr	4
+只	kw	5
 国	l	1
 國	lakg	1
 转	lfn	1
@@ -232,7 +235,9 @@
 窗口	pwkk	1
 空格	pwst	1
 它	px	1
-我	q	29
+福	pyg	4
+祥瑞	pygm	4
+我	q	33
 错	qaj	1
 怨恨	qbnv	1
 钱	qg	1
@@ -245,7 +250,7 @@
 钦	qqw	1
 猜	qtge	1
 狗	qtq	3
-的	r	35
+的	r	39
 描	ral	1
 拒	rang	1
 反	rc	1
@@ -291,6 +296,7 @@
 知	td	1
 乱	tdn	1
 知情	tdng	1
+短发	tdnt	4
 知道	tdut	4
 靠右	tfdk	1
 千	tfk	1

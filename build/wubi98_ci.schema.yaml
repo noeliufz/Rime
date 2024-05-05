@@ -1,16 +1,16 @@
 __build_info:
   rime_version: 1.11.0
   timestamps:
-    default: 1714392012
-    default.custom: 1683776647
-    key_bindings: 1683029024
+    default: 1714710330
+    default.custom: 1714710330
+    key_bindings: 1714440389
     key_bindings.custom: 0
-    punctuation: 1683029024
+    punctuation: 1714440389
     punctuation.custom: 0
-    symbols: 1683029024
+    symbols: 1714440389
     symbols.custom: 0
     wubi98_ci.custom: 1683776155
-    wubi98_ci.schema: 1683776261
+    wubi98_ci.schema: 1714907651
 ci_reverse_lookup:
   dictionary: wubi98_ci.extended
   tags:
@@ -119,7 +119,7 @@ mkst:
   enable_completion: true
   enable_encoder: false
   enable_sentence: true
-  enable_user_dict: false
+  enable_user_dict: true
   encode_commit_history: false
   initial_quality: 10
   max_phrase_length: 4
@@ -423,7 +423,7 @@ reverse_lookup:
   enable_completion: true
   enable_encoder: false
   enable_sentence: false
-  enable_user_dict: false
+  enable_user_dict: true
   encode_commit_history: false
   initial_quality: 100000
   max_phrase_length: 4
@@ -444,7 +444,7 @@ rvl_zhuyin:
   enable_completion: true
   enable_encoder: false
   enable_sentence: true
-  enable_user_dict: false
+  enable_user_dict: true
   encode_commit_history: false
   initial_quality: 10
   max_phrase_length: 4
@@ -465,7 +465,7 @@ rvlk1:
   enable_completion: true
   enable_encoder: false
   enable_sentence: false
-  enable_user_dict: false
+  enable_user_dict: true
   encode_commit_history: false
   extra_tags:
     - rvlk2
@@ -548,7 +548,7 @@ translator:
   enable_completion: true
   enable_encoder: false
   enable_sentence: false
-  enable_user_dict: false
+  enable_user_dict: true
   encode_commit_history: false
   initial_quality: 100000
   max_phrase_length: 4

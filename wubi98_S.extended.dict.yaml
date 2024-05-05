@@ -4,14 +4,14 @@
 ---
 name: wubi98_S.extended
 version: "2.0"
-sort: by_weight
+sort: original
 import_tables:
   - wubi98_S
 columns:
   - text
   - code
-  - weight
-  - stem
+  # - weight
+  # - stem
 encoder:
   exclude_patterns:
     - '^z.*$'
@@ -23,6 +23,12 @@ encoder:
     - length_in_range: [4, 90]
       formula: "AaBaCaZa"
 ...
+
+福瑞	pygm
+算了	thbn
+noeliufz@gmail.com	mail
+130903199904130317	shen
+15365167039	dian
 
 # ↓ 扩展词库的用法一：「无码加词」
 # 无编码词条直接拷贝进来、保存一下，就批量加入了，下面几首诗，可以「五笔词条」的方式打出
@@ -71,3 +77,5 @@ encoder:
 # 「主码表」与「扩展词库」最终在「Librime」引擎中「合二为一」。
 # 「扩展词库」可视为「主码表」的延伸与补充，两者权级平等，故遇着想改排序的重码，变更词频时，需要与主表对照。
 # 数据无价，注意保存备份，可以定期保存，程序升级前，可以先取出，再覆盖回去。
+
+

@@ -1,16 +1,16 @@
 __build_info:
   rime_version: 1.11.0
   timestamps:
-    default: 1714392012
-    default.custom: 1683776647
-    key_bindings: 1683029024
+    default: 1714710330
+    default.custom: 1714710330
+    key_bindings: 1714440389
     key_bindings.custom: 0
-    punctuation: 1683029024
+    punctuation: 1714440389
     punctuation.custom: 0
-    symbols: 1683029024
+    symbols: 1714440389
     symbols.custom: 0
-    wubi98_S.custom: 1714392794
-    wubi98_S.schema: 1706863807
+    wubi98_S.custom: 1714908921
+    wubi98_S.schema: 1714908939
 charset_filter:
   option_name: gb2312
 ci_reverse_lookup:
@@ -67,7 +67,7 @@ fixed:
   enable_completion: false
   enable_encoder: true
   enable_sentence: false
-  enable_user_dict: true
+  enable_user_dict: false
   encode_commit_history: false
   initial_quality: 1000
   max_phrase_length: 4
@@ -113,7 +113,7 @@ menu:
     - "〧"
     - "〨"
     - "〩"
-  page_size: 6
+  page_size: 5
 mkst:
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz|工子又大月土王目水日口田山已火之金白木禾立女人幺言z|"
@@ -494,7 +494,7 @@ schema:
     碼表源自 yanhuacuo
     敲 z 鍵進入拼音反查
 
-  name: "简词"
+  name: "五笔"
   schema_id: wubi98_S
   version: 6.0
 simplifier:
@@ -519,8 +519,6 @@ switches:
   - name: new_spelling
     reset: 1
     states: ["隐", "显"]
-  - name: rvl_zhuyin
-    reset: 1
   - name: gb2312
     reset: 0
     states: ["扩", "常"]

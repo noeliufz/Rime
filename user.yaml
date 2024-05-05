@@ -1,6 +1,7 @@
 var:
-  last_build_time: 1714392819
+  last_build_time: 1714909654
   option:
+    full_shape: false
     simplification: false
     zh_hant: true
   previously_selected_schema: wubi98_S
@@ -8,10 +9,10 @@ var:
     bopomofo: 1714392542
     cangjie5: 1683351645
     double_pinyin_mspy: 1714392566
-    ipa_xsampa: 1714392580
-    jyutping: 1714392527
+    ipa_xsampa: 1714710746
+    jyutping: 1714710752
     luna_pinyin: 1683256848
-    wubi98_S: 1714392638
-    wubi98_U: 1683963373
-    wubi98_ci: 1714392564
+    wubi98_S: 1714909078
+    wubi98_U: 1714907370
+    wubi98_ci: 1714909076
     wubi98_dz: 1714392562

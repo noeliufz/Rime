@@ -1,8 +1,8 @@
 __build_info:
   rime_version: 1.11.0
   timestamps:
-    squirrel: 1714390670
-    squirrel.custom: 1714391502
+    squirrel: 1714444030
+    squirrel.custom: 1714710330
 app_options:
   co.zeit.hyper:
     ascii_mode: true
@@ -248,6 +248,57 @@ preset_color_schemes:
     hilited_text_color: 0xeeeeee
     name: "純粹的形式／Purity of Form"
     text_color: 0xc2c2c2
+  reimu:
+    alpha: 0.90
+    author: "Lufs X <i@isteed.cc>"
+    back_color: 0xF5FCFD
+    border_height: 1
+    border_width: 1
+    candidate_format: "%c %@"
+    candidate_text_color: 0x282C32
+    color_space: display_p3
+    comment_text_color: 0x717172
+    corner_radius: 8
+    font_face: "LXGWWenKai-Regular, PingFangSC"
+    font_point: 17
+    hilited_candidate_back_color: 0xF5FCFD
+    hilited_candidate_label_color: 0x4F00E5
+    hilited_candidate_text_color: 0x4F00E5
+    hilited_comment_text_color: 0x9F9CF2
+    hilited_corner_radius: 8
+    hilited_text_color: 0xD8000000
+    label_color: 0x888785
+    label_font_face: "LXGWWenKai-Regular, PingFangSC"
+    label_font_point: 14
+    name: "灵梦／Reimu"
+    shadow_size: 2
+    text_color: 0x6B54E9
+  reimu_dark:
+    alpha: 0.95
+    author: "Lufs X <i@isteed.cc>"
+    back_color: 0x020A00
+    border_color: 0x020A00
+    border_height: 1
+    border_width: 1
+    candidate_format: "%c %@"
+    candidate_text_color: 0xC0C0C0
+    color_space: display_p3
+    comment_text_color: 0x717172
+    corner_radius: 7
+    font_face: "LXGWWenKai-Regular, PingFangSC"
+    font_point: 17
+    hilited_candidate_back_color: 0x0C140A
+    hilited_candidate_label_color: 0x3100C7
+    hilited_candidate_text_color: 0x3100C7
+    hilited_comment_text_color: 0x7772AF
+    hilited_corner_radius: 6
+    hilited_text_color: 0xD8000000
+    label_color: 0x717172
+    label_font_face: "LXGWWenKai-Regular, PingFangSC"
+    label_font_point: 14
+    name: "灵梦／Reimu／深色"
+    shadow_size: 2
+    text_color: 0x6B54E9
   solarized_dark:
     author: "雪齋 <lyc20041@gmail.com>"
     back_color: 0xF0352A0A
@@ -306,78 +357,11 @@ preset_color_schemes:
     hilited_text_color: 0xfecb96
     name: "星際我爭霸／StarCraft"
     text_color: 0xccaa88
-
-  reimu:
-    name: "灵梦／Reimu"
-    author: "Lufs X <i@isteed.cc>"
-
-    font_face: "LXGWWenKai-Regular, PingFangSC"
-    font_point: 17
-    label_font_face: "LXGWWenKai-Regular, PingFangSC"
-    label_font_point: 14
-
-    candidate_format: "%c\u2005%@"
-    candidate_list_layout: linear
-    text_orientation: horizontal
-    inline_preedit: true
-
-    corner_radius: 8
-    hilited_corner_radius: 8
-    border_height: 1
-    border_width: 1
-    alpha: 0.90
-    shadow_size: 2
-
-    color_space: display_p3
-    back_color: 0xF5FCFD
-    candidate_text_color: 0x282C32
-    comment_text_color: 0x717172
-    label_color: 0x888785
-    hilited_candidate_back_color: 0xF5FCFD
-    hilited_candidate_text_color: 0x4F00E5
-    hilited_comment_text_color: 0x9F9CF2
-    hilited_candidate_label_color: 0x4F00E5
-    text_color: 0x6B54E9
-    hilited_text_color: 0xD8000000
-
-  reimu_dark:
-    name: "灵梦／Reimu／深色"
-    author: "Lufs X <i@isteed.cc>"
-
-    font_face: "LXGWWenKai-Regular, PingFangSC"
-    font_point: 17
-    label_font_face: "LXGWWenKai-Regular, PingFangSC"
-    label_font_point: 14
-
-    candidate_format: "%c\u2005%@"
-    candidate_list_layout: linear
-    text_orientation: horizontal
-    inline_preedit: true
-
-    corner_radius: 7
-    hilited_corner_radius: 6
-    border_height: 1
-    border_width: 1
-    alpha: 0.95
-    shadow_size: 2
-
-    color_space: display_p3
-    back_color: 0x020A00
-    border_color: 0x020A00
-    candidate_text_color: 0xC0C0C0
-    comment_text_color: 0x717172
-    label_color: 0x717172
-    hilited_candidate_back_color: 0x0C140A
-    hilited_candidate_text_color: 0x3100C7
-    hilited_comment_text_color: 0x7772AF
-    hilited_candidate_label_color: 0x3100C7
-    text_color: 0x6B54E9
-    hilited_text_color: 0xD8000000
-
 show_notifications_when: appropriate
 style:
   border_height: 0
   border_width: 0
+  candidate_list_layout: linear
   color_scheme: reimu
   color_scheme_dark: reimu_dark
   comment_font_point: 16
@@ -385,11 +369,11 @@ style:
   font_face: "Lucida Grande"
   font_point: 21
   hilited_corner_radius: 0
-  inline_preedit: false
   inline_candidate: true
+  inline_preedit: true
   label_font_point: 18
   line_spacing: 5
+  memorize_size: false
   spacing: 10
   text_orientation: horizontal
-  memorize_size: false
-  candidate_list_layout: linear
+  transcluency: true

@@ -9,8 +9,8 @@ sort: original
 columns:
   - text
   - code
-  - weight
-  - stem
+  # - weight
+  # - stem
 encoder:
   exclude_patterns:
     - '^z.*$'
