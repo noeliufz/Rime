@@ -1,18 +1,21 @@
 var:
-  last_build_time: 1714909654
+  last_build_time: 1714978392
   option:
     full_shape: false
-    simplification: false
-    zh_hant: true
+    simplification: true
+    zh_hans: false
+    zh_hant: false
+    zh_hant_tw: true
   previously_selected_schema: wubi98_S
   schema_access_time:
-    bopomofo: 1714392542
+    bopomofo: 1714977276
     cangjie5: 1683351645
     double_pinyin_mspy: 1714392566
     ipa_xsampa: 1714710746
+    japanese: 1714976969
     jyutping: 1714710752
     luna_pinyin: 1683256848
-    wubi98_S: 1714909078
+    wubi98_S: 1714977377
     wubi98_U: 1714907370
     wubi98_ci: 1714909076
-    wubi98_dz: 1714392562
+    wubi98_dz: 1714975264

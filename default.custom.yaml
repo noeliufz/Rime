@@ -15,3 +15,4 @@ patch:
     - {schema: bopomofo}
     - {schema: jyutping}
     - {schema: cangjie5}
+    - {schema: japanese}
