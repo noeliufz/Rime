@@ -2,3 +2,5 @@
 *.log
 *.old
 **/*.userdb/
+.DS_Store
+/trash/
