@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1714978392
+  last_build_time: 1717464030
   option:
     full_shape: false
     simplification: true
@@ -10,12 +10,12 @@ var:
   schema_access_time:
     bopomofo: 1714977276
     cangjie5: 1683351645
-    double_pinyin_mspy: 1714392566
+    double_pinyin_mspy: 1715839900
     ipa_xsampa: 1714710746
-    japanese: 1714976969
-    jyutping: 1714710752
+    japanese: 1715223318
+    jyutping: 1714988649
     luna_pinyin: 1683256848
-    wubi98_S: 1714977377
+    wubi98_S: 1715839914
     wubi98_U: 1714907370
     wubi98_ci: 1714909076
     wubi98_dz: 1714975264

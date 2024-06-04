@@ -20,10 +20,10 @@ switches:
     reset: 0
     states: [ 中文,西文 ]
   - name: zh_trad
-    reset: 1
+    reset: 0
     states: [ 简,繁 ]
   - name: new_spelling
-    reset: 0
+    reset: 1
     states: [ 隐,显 ]
   - name: gb2312
     reset: 0

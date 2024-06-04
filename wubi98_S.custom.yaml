@@ -2,7 +2,7 @@ patch:
   "speller/auto_select": false
   "speller/auto_clear": "max_length"
   "translator/enable_completion": true
-  "menu/page_size": 9
+  "menu/page_size": 6
   # "style/color_scheme": "newreimu"
   # "style/font_point": 10
   # "style/font_face": "98wb-0"
