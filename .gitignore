@@ -4,3 +4,5 @@
 **/*.userdb/
 .DS_Store
 /trash/
+installation.yaml
+user.yaml
