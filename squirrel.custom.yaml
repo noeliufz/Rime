@@ -114,5 +114,5 @@ patch:
     hilited_corner_radius: 0 # 选中候选项圆角
     shadow_size: 0
 
-    color_scheme: mojave
-    color_scheme_dark: mojave_dark
+    color_scheme: reimu
+    color_scheme_dark: reimu_dark

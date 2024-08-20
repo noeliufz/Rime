@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1717464030
+  last_build_time: 1724134051
   option:
     full_shape: false
     simplification: true
@@ -13,9 +13,9 @@ var:
     double_pinyin_mspy: 1715839900
     ipa_xsampa: 1714710746
     japanese: 1715223318
-    jyutping: 1714988649
+    jyutping: 1722832212
     luna_pinyin: 1683256848
-    wubi98_S: 1715839914
+    wubi98_S: 1722834077
     wubi98_U: 1714907370
     wubi98_ci: 1714909076
     wubi98_dz: 1714975264
