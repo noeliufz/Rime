@@ -2,13 +2,13 @@
 #@/db_name	wubi98_dz
 #@/db_type	tabledb
 #@/rime_version	1.8.5
-#@/tick	87
+#@/tick	97
 了	b	3
 阤	bbn	1
-也	bn	1
+也	bn	2
 以	c	1
 能	ce	1
-对	cf	3
+对	cf	4
 码	dcg	1
 石	dgtg	2
 克	dq	1
@@ -21,7 +21,7 @@
 五	gg	1
 更	gjr	1
 䁦	hheg	1
-不	i	9
+不	i	10
 光	ig	2
 是	j	2
 量	jg	1
@@ -37,9 +37,9 @@
 这	p	1
 字	pb	1
 定	pgh	3
-我	q	5
+我	q	6
 解	qev	1
-的	r	2
+的	r	4
 后	rg	3
 皇	rgf	1
 看	rh	1
@@ -58,11 +58,11 @@
 臬	thsu	2
 问	uk	1
 道	ut	3
-好	vb	1
+好	vb	2
 什	wf	1
 个	wh	1
-但	wjg	1
-你	wq	4
+但	wjg	2
+你	wq	5
 八	wt	1
 几	wtn	1
 今	wyn	1
@@ -70,5 +70,5 @@
 就	yi	4
 诩	yng	1
 词	yngk	1
-说	yuk	1
+说	yuk	2
 文	yygy	2

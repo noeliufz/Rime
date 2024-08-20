@@ -2,7 +2,7 @@
 #@/db_name	wubi98_ci
 #@/db_type	tabledb
 #@/rime_version	1.8.5
-#@/tick	682
+#@/tick	721
 式	aa	1
 工	aaaa	1
 華	agag	1
@@ -27,8 +27,8 @@
 出	bm	2
 出来	bmgu	1
 出错	bmqa	2
-也	bn	3
-皮肤	bneg	1
+也	bn	11
+皮肤	bneg	9
 隐藏	bqaa	1
 孤寡	brpd	2
 陪笑	butt	1
@@ -37,13 +37,13 @@
 又	cccc	1
 参数	cdov	3
 能	ce	2
-对	cf	15
+对	cf	19
 特	cffy	1
 䮁	coc	1
 难	cw	1
 在	d	11
 破	db	1
-大	dd	4
+大	dd	8
 大	dddd	1
 大学	ddip	2
 鬆	des	1
@@ -61,7 +61,7 @@
 原因	drld	1
 太	dy	2
 成就感	dydg	1
-有	e	8
+有	e	16
 肥	ec	1
 亂	ecm	3
 月	eee	1
@@ -96,7 +96,7 @@
 弄	gaj	2
 开心	gany	1
 到	gc	6
-天	gd	2
+天	gd	6
 天涯	gdid	1
 表达	gedp	1
 于	gf	1
@@ -135,23 +135,24 @@
 眼	hv	1
 此	hx	1
 些	hxf	1
-不	i	22
+不	i	26
 满	iag	1
 涯	idf	1
 溽	idff	1
 光	ig	1
+小	ih	8
 水	ii	1
 水	iiii	1
 渡	io	1
 沉浸	ipiv	1
 常	ipk	1
 赏析	ipsr	1
-觉得	iptj	4
+觉得	iptj	8
 激动	irfc	1
 当前	ivue	1
 没	iw	3
 游戏	iyca	1
-是	j	22
+是	j	30
 明明	jeje	1
 里	jfd	2
 时候	jfwh	1
@@ -163,8 +164,8 @@
 照	jvko	1
 中	k	4
 呀	ka	2
-啊	kb	3
-吧	kc	4
+啊	kb	7
+吧	kc	8
 吗	kcg	10
 順	kdmy	1
 别	kej	1
@@ -200,6 +201,7 @@
 内	mw	1
 懂	nat	1
 懂得	natj	1
+那么	ngtc	4
 情况	nguk	1
 慢	nj	2
 刷新	nmus	1
@@ -219,7 +221,7 @@
 数量	ovjg	2
 这	p	11
 賽	pawm	1
-字	pb	4
+字	pb	8
 字根	pbsv	1
 完成	pfdn	1
 完	pfq	4
@@ -237,7 +239,7 @@
 它	px	1
 福	pyg	4
 祥瑞	pygm	4
-我	q	33
+我	q	37
 错	qaj	1
 怨恨	qbnv	1
 钱	qg	1
@@ -250,7 +252,8 @@
 钦	qqw	1
 猜	qtge	1
 狗	qtq	3
-的	r	39
+狼	qtyv	4
+的	r	59
 描	ral	1
 拒	rang	1
 反	rc	1
@@ -297,7 +300,7 @@
 乱	tdn	1
 知情	tdng	1
 短发	tdnt	4
-知道	tdut	4
+知道	tdut	8
 靠右	tfdk	1
 千	tfk	1
 选	tfqp	1
@@ -312,7 +315,7 @@
 自己	thnn	1
 怎样	thsu	7
 臬	thsu	2
-怎么	thtc	11
+怎么	thtc	15
 版务	thte	1
 得	tj	1
 各	tk	1
@@ -335,18 +338,19 @@
 着	uh	1
 着急	uhqv	1
 音乐	ujtn	1
+总把	ukrc	4
 部件	ukwt	1
 奬	uqfd	1
 獎	uqfd	1
 资源	uqid	2
 亲	us	1
-道理	utgj	4
+道理	utgj	8
 首	uth	1
 馘	uthg	1
 颜色	utqc	1
 立	uu	1
 立	uuuu	1
-好	vb	4
+好	vb	12
 女	vvvv	1
 人	w	8
 创作	wbwt	1
@@ -365,10 +369,11 @@
 命令	wgwy	1
 个	wh	19
 候	whn	1
-但	wjg	2
+但	wjg	6
 但是	wjjg	6
 倡	wjjg	2
-你	wq	19
+你	wq	27
+㐴	wqy	4
 风	wr	2
 傻逼	wtgk	1
 们	wu	3
@@ -406,9 +411,10 @@
 词	yngk	2
 词库	ynol	1
 词组	ynxe	3
+豪	ypg	4
 这样	ypsu	4
 离散	yrae	1
-说	yuk	10
+说	yuk	18
 设置	ywlf	8
 论	ywx	2
 方面	yydl	1
