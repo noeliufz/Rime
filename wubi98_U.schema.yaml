@@ -12,38 +12,38 @@ schema:
     碼表源自 yanhuacuo
     敲 z 鍵進入拼音反查
   dependencies:
-    - py
+    # - py
 
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中,英 ]
+    states: [ 中,英 ]    
   - name: zh_trad
     reset: 0
     states: [ 简,繁 ]
   - name: new_spelling
     reset: 1
-    states: [ 隐,显 ]  
+    states: [ 隐,显 ]
   - name: rvl_zhuyin
     reset: 1
+    states: [ 形,拼 ]
   - name: GB2312
     reset: 0
     states: [ 扩,常 ]
   - name: new_hide_pinyin
     reset: 1
-    states: [ 音, 哑 ]
+    states: [ 音,哑 ]
   - name: single_char
     reset: 0
-    states: [ 词, 单 ]
+    states: [ 词,单 ]
   - name: ascii_punct
     reset: 0
-    states: [ 。，, ．， ]
+    states: [ 。，,．， ]
   - name: full_shape
     reset: 0
-    states: [ 半, 全 ]
+    states: [ 半,全 ]
 engine:
   filters:
-    - charset_filter@gb2312  
     - simplifier
     - "reverse_lookup_filter@ci_reverse_lookup"
     - lua_filter@new_spelling@spelling
@@ -87,7 +87,7 @@ speller:
   max_code_length: 4
   
 translator:
-  dictionary: wubi98_U
+  dictionary: wubi98_U.extended
   db_class: tabledb
   initial_quality: 100000
   enable_charset_filter: false
@@ -101,43 +101,95 @@ translator:
     - "^z.*$"
 
 fixed:
-  __include: /translator
-  initial_quality: 1000
+  db_class: tabledb
+  dictionary: wubi98_U.extended
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+  enable_charset_filter: false
+  enable_completion: false
   enable_encoder: true
+  enable_sentence: false
   enable_user_dict: true
+  encode_commit_history: false
+  initial_quality: 1000
+  max_phrase_length: 2
   
 mkst:
-  __include: /translator
-  initial_quality: 10
+  db_class: tabledb
+  dictionary: wubi98_U.extended
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+  enable_charset_filter: false
+  enable_completion: false
+  enable_encoder: false
   enable_sentence: true
-  prefix: '`'
-  tips: "〔精准造词〕"
+  enable_user_dict: false
+  encode_commit_history: false
+  initial_quality: 10
+  max_phrase_length: 2
+  prefix: "`"
   tag: mkst
+  tips: "〔精准造词〕"
 
 rvl_zhuyin:
-  __include: /translator
-  initial_quality: 10
+  db_class: tabledb
+  dictionary: wubi98_U.extended
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+  enable_charset_filter: false
+  enable_completion: false
+  enable_encoder: false
   enable_sentence: true
-  prefix: '~'
-  tips: "〔以形查音〕"
+  enable_user_dict: false
+  encode_commit_history: false
+  initial_quality: 10
+  max_phrase_length: 2
+  prefix: "~"
   tag: zhuyin
+  tips: "〔以形查音〕"
 
 reverse_lookup:
-  __include: /translator
+  db_class: tabledb
   dictionary: py
-  tips: "〔拼音反查〕"
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+  enable_charset_filter: false
+  enable_completion: false
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: false
+  encode_commit_history: false
+  initial_quality: 100000
+  max_phrase_length: 2
   preedit_format:
-    - xform/([nl])v/$1ü/
-    - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
   tag: rvlk2
+  tips: "〔拼音反查〕"
     
 rvlk1:
-  __include: /reverse_lookup
-  prefix: "z"
-  tag: rvlk1
+  db_class: tabledb
+  dictionary: py
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+  enable_charset_filter: false
+  enable_completion: false
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: false
+  encode_commit_history: false
   extra_tags:
-    - rvlk2  
+    - rvlk2
+  initial_quality: 100000
+  max_phrase_length: 2
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
+  prefix: z
+  tag: rvlk1
+  tips: "〔拼音反查〕"
     
 ci_reverse_lookup:
   dictionary: wubi98_U.extended
@@ -191,7 +243,17 @@ key_binder:
     - {accept: "Control+Shift+J", toggle: new_hide_pinyin, when: always} 
     - {accept: "Control+Shift+K", toggle: single_char, when: always}
     - {accept: "Control+Shift+U", toggle: GB2312, when: always}
-
+    - {accept: KP_0, send: 0, when: composing}
+    - {accept: KP_1, send: 1, when: composing}
+    - {accept: KP_2, send: 2, when: composing}
+    - {accept: KP_3, send: 3, when: composing}
+    - {accept: KP_4, send: 4, when: composing}
+    - {accept: KP_5, send: 5, when: composing}
+    - {accept: KP_6, send: 6, when: composing}
+    - {accept: KP_7, send: 7, when: composing}
+    - {accept: KP_8, send: 8, when: composing}
+    - {accept: KP_9, send: 9, when: composing}
+    - {accept: KP_Decimal, send: period, when: composing}
 punctuator:
   import_preset: symbols
   

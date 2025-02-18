@@ -6,6 +6,6 @@ patch:
   "style/preedit_type": composition
   "style/horizontal": true
   "style/candidate_list_layout": linear
-  "style/font_point": 18
+  "style/font_point": 15
   "style/comment_font_face": "98WB-0"
-  "style/comment_font_point": 16
+  "style/comment_font_point": 13
